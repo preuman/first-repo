@@ -15,3 +15,6 @@ let lenguajesFavoritos = ['JavaScript', 'Cobol'];
 
 let mejorLenguaje = lenguajesFavoritos[0];
 let peorLenguaje = lenguajesFavoritos[1];
+
+console.log(mejorLenguaje);
+console.log(peorLenguaje);
