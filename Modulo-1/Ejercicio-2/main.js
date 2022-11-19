@@ -1,7 +1,7 @@
-let nombre = "David";
-let edad = 41;
-let mayorDeEdad = true;
-let direccion = {
+const nombre = "David";
+const edad = 41;
+const mayorDeEdad = true;
+const direccion = {
     calle: 'Flor de Adelfa' ,
     numero: 4 ,
     piso: 2 ,
@@ -10,11 +10,11 @@ let direccion = {
     ciudad: 'Sevilla' ,
     provincia: 'Sevilla' 
 };
-let coloresFavoritos = ['verde' , 'azul', 'marron'];
-let lenguajesFavoritos = ['JavaScript', 'Cobol'];
+const coloresFavoritos = ['verde' , 'azul', 'marron'];
+const lenguajesFavoritos = ['JavaScript', 'Cobol'];
 
-let mejorLenguaje = lenguajesFavoritos[0];
-let peorLenguaje = lenguajesFavoritos[1];
+const mejorLenguaje = lenguajesFavoritos[0];
+const peorLenguaje = lenguajesFavoritos[1];
 
 console.log(mejorLenguaje);
 console.log(peorLenguaje);
