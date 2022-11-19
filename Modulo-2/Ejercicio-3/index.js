@@ -1,4 +1,4 @@
 
-const dobleNumero = numero => numero * 2;
+const areaRectangulo = (largo, ancho) => largo * ancho;
 
-console.log(dobleNumero(2));
+console.log(areaRectangulo(3,4));
