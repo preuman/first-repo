@@ -1,4 +1,4 @@
 
-const dobleNumero = numero => numero * 2;
+const cuadradoNumero = numero => numero * numero;
 
-console.log(dobleNumero(2));
+console.log(cuadradoNumero(6));
