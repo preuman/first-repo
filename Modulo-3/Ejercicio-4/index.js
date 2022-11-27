@@ -1,5 +1,7 @@
 let pin = prompt('Introduce el palabra:');
 
+//console.log(adivinarPin(clave));
+
 console.log(esPalindromo(pin));
 
 function esPalindromo (palabra) {
