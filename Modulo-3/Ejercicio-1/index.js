@@ -1,4 +1,7 @@
+let muebles = ["Casa" , "Armario", "sofa", "almohada", "alfombra", "Litera"];
 
-const dobleNumero = numero => numero * 2;
+const empiezaPorA = muebles.filter((mueble) => {
+    return mueble.startsWith('a') ||  mueble.startsWith('A');
+});
 
-console.log(dobleNumero(2));
+console.log (empiezaPorA);
