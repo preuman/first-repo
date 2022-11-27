@@ -1,32 +1,17 @@
-let clave = 4455;
+let pin = prompt('Introduce el palabra:');
 
 //console.log(adivinarPin(clave));
 
-console.log(adivinarPinInfinito(clave));
+console.log(esPalindromo(pin));
 
-function adivinarPin (numero) {
-    for (let i=0; i<3; i++) {
-        let pin = prompt('Introduce el PIN:');
-        if (pin == numero) {
-            return '¡Eso fue correcto!';
-        }
-        else {console.log('Lo siento, eso estaba mal.');}
+function esPalindromo (palabra) {
+    let palabrainversa = '';
+    let numero = palabra.length - 1;
+
+    for (let i = numero ; i >=0 ; i--) {
+        palabrainversa = palabrainversa + palabra.charAt(i);
     }
-    return;
-}
 
-function adivinarPinInfinito (numero) {
-    let pin;
-    do {
-        let pin = prompt('Introduce el PIN:');
-        if (pin == numero) {
-            return '¡Eso fue correcto!';
-        }
-        else {
-            if (pin == 'salir') { return;}
-            else {console.log('Lo siento, eso estaba mal.');}
-        }
-
-    } while (pin != 'salir')
-
+    if (palabrainversa == palabra) {return palabra + ' es un palindromo';}
+    else {return palabra + ' NO es un palindromo';}
 }
